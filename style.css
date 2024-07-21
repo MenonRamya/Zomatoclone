@@ -53,3 +53,50 @@ display: none;
         min-height: 80vh;
     }
 }
+
+.herosection_container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:50px;
+    height: calc(60vh-60px);
+
+}
+
+.herosection_logo{
+    width:200px;
+    height:auto;
+}
+
+.herosection_title{
+    text-align: center;
+    color:white;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.input_container{
+    background-color: white;
+    padding:10px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    width:50%;
+    border-radius: 10px;
+}
+
+.input_location, .input_search{
+pad:5px;
+border:none;
+outline: none;
+}
+
+.input_location{
+    width:35%;
+    border-right: 2px solid #e0e0e0;
+}
+.input_search{
+    width:65%;
+}
